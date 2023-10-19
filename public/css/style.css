@@ -4,8 +4,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: beige;
+  font-family: "Poppins", sans-serif !important;
+  background-color: beige !important;
 }
 
 /* ---------------HEADER CSS---------------- */
@@ -27,7 +27,7 @@ body {
   padding: 15px 0;
 }
 
-.header__li a{
+.header__li a {
   text-decoration: none;
   color: white;
   transition: color 0.3s;
@@ -35,6 +35,7 @@ body {
 
 .header__li a:hover {
   color: red;
+  font-weight: 600;
 }
 
 /* Media Query for Tablets */
@@ -56,6 +57,24 @@ body {
     margin: 5px 0;
     padding: 5px 0;
   }
+}
+/* ---------------MAIN BODY CSS---------------- */
+
+.container{
+  text-align: center;
+}
+
+.form__input{
+  margin: 15px 0;
+}
+label{
+ color: red;
+}
+
+.heading {
+  text-align: center;
+  margin: 20px 0;
+  color: #202020;
 }
 
 /* ---------------FOOTER CSS---------------- */
